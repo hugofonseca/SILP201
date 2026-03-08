@@ -1,0 +1,18 @@
+1. Declare uma matriz 4 x 4. Preencha com 1 a diagonal principal e com 2 os
+demais elementos. Escreva ao final a matriz obtida.
+
+2. Escreva uma função que receba 3 notas de um aluno e uma letra. Se a
+letra for 'A', retorne a média aritmética; se for 'P', a média ponderada
+(pesos 5, 3 e 2); e se for 'H',
+a média harmônica.
+
+3. Faça um programa que leia os dados de 10 produtos, contendo: Código
+(inteiro); Nome (string de até 30 caracteres); Preço (float) e Quantidade
+em estoque (inteiro).
+Após ler todos os produtos, o programa deve:
+a) Separar os produtos em dois vetores:
+- Um com os produtos em estoque (quantidade > 0)
+- Outro com os produtos fora de estoque (quantidade == 0)
+b) Exibir a lista de produtos em estoque e fora de estoque separadamente.
+c) Calcular e exibir o valor total do estoque (preço × quantidade de todos os
+produtos em estoque).
