@@ -1,0 +1,32 @@
+LISTA DE EXERCÍCIOS – ENTRADA E SAÍDA
+
+1. Média de Três Números 
+Faça um programa que receba três números inteiros e mostre a média aritmética deles.
+Calcular a média de três notas de um aluno.
+
+2. Operações Básicas 
+Leia dois números reais e calcule: soma, subtração, multiplicação e divisão.
+Contexto: operações entre saldos ou pontos de jogo.
+Além do código, você pode montar uma tabela mostrando os resultados.
+
+3. Um Quarto de um Número 
+Receba um número real e mostre ¼ deste valor.
+Dividir igualmente o valor de uma pizza entre quatro amigos.
+Pode ser feito com código em linguagem C ou representado em um fluxograma simples.
+
+4. Saldo da Poupança 
+Leia o saldo de uma conta e mostre o novo saldo com reajuste de 2%.
+O programa deve simular o reajuste mensal da poupança.
+Além do código, você pode apresentar em tabela ou gráfico comparando saldo inicial e 
+final.
+
+5. Conversão de Temperatura 
+Leia um valor em graus Celsius e converta para Fahrenheit:
+Será um programa de previsão do tempo em diferentes cidades.
+Além do código, pode ser feita uma tabela comparando valores em Celsius e Fahrenheit.
+
+6. Conversão de Tempo (Fluxograma ou Código em C)
+    a) Receber um tempo em segundos.
+    b) Mostrar equivalente em horas e minutos.
+O contexto é a duração de um show, filme ou partida de futebol.
+Pode ser resolvido em código ou representado com um fluxograma.
