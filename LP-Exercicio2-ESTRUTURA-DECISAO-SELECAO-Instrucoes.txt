@@ -1,0 +1,34 @@
+LISTA DE EXERCÍCIOS – ESTRUTURAS DE DECISÃO/SELEÇÃO
+1. Faça um fluxograma que leia um número e determine se ele é par ou ímpar.
+
+2. Faça um programa que receba valores inteiros X, Y e Z e determine se formam um 
+triângulo equilátero, isósceles, escaleno ou nenhum desses.
+
+3. Faça um programa que receba 3 valores reais e mostre o maior, o menor e o 
+intermediário.
+
+4. Faça um programa que receba um símbolo de operação do usuário (+, -, / ou *) e 
+dois números reais. O programa deve retornar o resultado da operação.
+
+5. Faça um fluxograma que receba duas notas parciais de um aluno (0 a 100) e 
+informe se ele está aprovado (média ≥ 70), em exame final (média entre 40 e 69) 
+ou reprovado (média < 40).
+
+6. Caso esteja em exame, o fluxograma deve pedir a nota do exame (0 a 100) e 
+informar se o aluno está aprovado (média + nota do exame ≥ 100) ou reprovado.
+
+7. Faça um programa que receba a velocidade máxima de uma avenida e a velocidade
+do motorista. Calcule a multa considerando R$ 5,00 por cada km/h acima do limite. 
+Se a velocidade estiver dentro do limite, o programa deve informar que não há 
+multa.
+
+8. Faça um programa que calcule o salário semanal de um trabalhador. 
+Entradas: número de horas semanais e valor da hora.
+• Até 40h: salário normal.
+• 41h até 60h: bônus de 50% nas horas acima de 40.
+• Acima de 60h: bônus de 100% nas horas acima de 60.
+
+9. Faça um programa que receba o número de lados e o tamanho dos lados de um 
+polígono regular (Triângulo, quadrado e hexágono) e calcule sua área.
+• Pesquise como se calcula as áreas desses polígonos. 
+• Outros: imprimir “não sei calcular a área”.
