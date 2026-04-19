@@ -2,24 +2,20 @@
 
 int main() { 
 
-    int num, i, j, sum; 
+    int i, j, sum; 
 
     printf("Questão 4:\nNúmeros perfeitos entre 1 e 100:"); 
 
-    for(i = 1; i <= 100; i++) { 
-        num = i; 
+    for(i = 1; i < 101; i++) { 
         sum = 0; 
-
-        for(j = 1; j <= i; j++) { 
+        for(j = i; j >0; j--) { 
             if(i % j == 0) { 
                 sum += j; 
             }     
         }      
-
         //printf(" (sum = %d num = %d) ", sum, num);        
-
-        if(sum == num * 2) { 
-            printf(" %d", num); 
+        if(sum == i * 2) { 
+            printf(" %d", i); 
         } 
     } printf("\n-> Para sugestões, críticas ou relato de problemas abra uma issue em https://github.com/hugofonseca/SILP201/issues .\n");
     

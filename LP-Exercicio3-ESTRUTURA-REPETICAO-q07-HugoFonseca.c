@@ -13,20 +13,28 @@ int main() {
     //printf("teste %d\n", x); 
 
     do { 
-        printf("Digite seu palpite.\n"); 
+        printf("Digite seu %dº palpite.\n",i+1); 
         scanf("%d", &input); 
-        i += 1; 
-    } while(input != x && i < 11); 
+        i += 1;
+        if (input < x)
+            printf("dica: tente um valor maior.\n");
+        else if (input > x)
+            printf("dica: tente um valor menor\n");
+    } while(input != x && i < 10); 
 
-    if(i >= 1 && i <= 3) { 
-        printf("muito sortudo."); 
-    } else if(i >= 4 && i <=6) { 
-        printf("sortudo."); 
-    } else if (i >= 7 && i <= 10) { 
-        printf("normal."); 
-    } else if (i > 10) { 
-        printf("tente novamente."); 
-    } printf("\n-> Para sugestões, críticas ou relato de problemas abra uma issue em https://github.com/hugofonseca/SILP201/issues .\n");
+    if(input == x){
+        printf("Acertou em %d tentativas\n", i);
+        if(i >= 1 && i <= 3)  
+            printf("muito sortudo."); 
+        else if(i >= 4 && i <=6)
+            printf("sortudo."); 
+        else if (i >= 7 && i <= 10)
+            printf("normal.");
+    } else { 
+        printf("O limite de tentativas foi excedido. Tente novamente!\n");
+    }
+    
+    printf("\n-> Para sugestões, críticas ou relato de problemas abra uma issue em https://github.com/hugofonseca/SILP201/issues .\n");
     
     return 0; 
 
